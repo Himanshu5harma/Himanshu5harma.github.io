@@ -34,7 +34,7 @@ export const PROFILE_DOCUMENTS: readonly RetrievalDocument[] = [
   {
     id: 'direction',
     title: 'Current AI engineering focus',
-    text: 'Himanshu is moving toward full stack AI engineering. His current focus is building with React, Python, FastAPI, and AI.',
+    text: 'Himanshu Sharma’s portfolio focuses on full stack AI engineering with React, Python, FastAPI, and AI. His engineering priorities include retrieval, evaluation, and observability.',
     sourceLabel: 'About Himanshu',
     sourceHref: '#about',
     sourceContext: 'Himanshu’s current focus in full stack AI engineering.',
@@ -42,7 +42,7 @@ export const PROFILE_DOCUMENTS: readonly RetrievalDocument[] = [
   {
     id: 'fast-api-backend',
     title: 'fast-api-backend · API foundations',
-    text: 'fast-api-backend is Himanshu5harma’s public Network Compliance Control Plane repository. It uses Python, FastAPI, SQLAlchemy, and PostgreSQL. Its API foundations include request IDs, structured access logs, liveness and readiness checks, and consistent errors.',
+    text: 'fast-api-backend is Himanshu Sharma’s public Network Compliance Control Plane repository. It uses Python, FastAPI, SQLAlchemy, and PostgreSQL. Its API foundations include request IDs, structured access logs, liveness and readiness checks, and consistent errors.',
     sourceLabel: 'GitHub · project README',
     sourceHref: 'https://github.com/Himanshu5harma/fast-api-backend/blob/main/README.md',
     sourceContext: 'Project overview and implemented API foundations in the public repository README.',
@@ -50,7 +50,7 @@ export const PROFILE_DOCUMENTS: readonly RetrievalDocument[] = [
   {
     id: 'user-management',
     title: 'user-management repository',
-    text: 'user-management is Himanshu5harma’s public Java and Spring Boot demo repository. It uses JPA and includes roles, permissions, and JWT authentication.',
+    text: 'user-management is Himanshu Sharma’s public Java and Spring Boot demo repository. It uses JPA and includes roles, permissions, and JWT authentication.',
     sourceLabel: 'GitHub · user-management',
     sourceHref: 'https://github.com/Himanshu5harma/user-management',
     sourceContext: 'The public Java implementation demonstrates user management and authentication.',

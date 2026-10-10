@@ -1,6 +1,6 @@
-# Himanshu Sharma — Portfolio
+# Himanshu Sharma — Full Stack AI Engineer
 
-A React and TypeScript portfolio with an editorial visual direction, interactive browser demonstrations, and a clear account of my transition from React, Java/Spring Boot, and AWS into Python, FastAPI, and AI engineering.
+A React and TypeScript portfolio with an editorial visual direction, interactive browser demonstrations, and a focus on full stack AI engineering with React, Python, FastAPI, and AWS.
 
 ## Run locally
 
@@ -28,7 +28,7 @@ The local retrieval demonstration runs in the visitor's browser. It illustrates 
 
 ## Branches and releases
 
-The intended public repository is `Himanshu5harma/Himanshu5harma.github.io`, giving the site the address `https://himanshu5harma.github.io/`.
+The project and repository are named `portfolio`. The public repository is `Himanshu5harma/portfolio`, and GitHub Pages hosts it at `https://himanshu5harma.github.io/portfolio/`.
 
 - `dev` is the working branch. Push draft changes here and preview locally with `npm run dev`.
 - `main` is the release branch. Open a pull request from `dev` to `main` when the portfolio is ready to publish.
@@ -44,7 +44,7 @@ The Vite base path is relative so the same build also works in a local preview. 
 This portfolio belongs to the personal GitHub account. Use the existing `github-personal` SSH alias for its remote:
 
 ```text
-git@github-personal:Himanshu5harma/Himanshu5harma.github.io.git
+git@github-personal:Himanshu5harma/portfolio.git
 ```
 
 If commit identity needs to be configured, do so only inside this repository with `git config --local user.name` and `git config --local user.email`, using the verified personal identity. Do not change global Git configuration, switch the default GitHub account, or alter Cisco repositories or credentials.

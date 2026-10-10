@@ -1,10 +1,11 @@
 export const profile = {
   name: 'Himanshu Sharma',
   initials: 'HS',
+  role: 'Full Stack AI Engineer',
   github: 'https://github.com/Himanshu5harma',
-  repository: 'https://github.com/Himanshu5harma/Himanshu5harma.github.io',
-  introduction: 'Six years of building for people. A new chapter in building with intelligence.',
-  description: 'I bring 6+ years of React experience, a background in Java, Spring Boot and AWS, and a growing practice in Python, FastAPI and applied AI.',
+  repository: 'https://github.com/Himanshu5harma/portfolio',
+  introduction: 'Intelligent products. Engineered for production.',
+  description: 'Full stack AI engineering with React, Python and FastAPI, grounded in 6+ years of React experience and a background in Java, Spring Boot and AWS.',
 } as const
 
 export const projects = [
