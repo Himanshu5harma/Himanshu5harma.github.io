@@ -26,14 +26,16 @@ Update `src/content.ts` for the profile introduction, project descriptions, stat
 
 The local retrieval demonstration runs in the visitor's browser. It illustrates retrieval and source grounding using portfolio content; it does not call an AI model or a backend. A future FastAPI demonstration needs a separate API host. Never place secret API keys in the frontend or in `VITE_*` environment variables.
 
-## Publish to GitHub Pages
+## Branches and releases
 
 The intended public repository is `Himanshu5harma/Himanshu5harma.github.io`, giving the site the address `https://himanshu5harma.github.io/`.
 
-1. Push this project's contents to the repository root on the `main` branch, including `package-lock.json`.
-2. Open the repository's **Settings → Pages** and choose **GitHub Actions** as the build and deployment source.
-3. The workflow in `.github/workflows/deploy.yml` installs dependencies, checks types, builds the site, and deploys `dist/`.
-4. Check the **Actions** tab for the deployment result and its published URL.
+- `dev` is the working branch. Push draft changes here and preview locally with `npm run dev`.
+- `main` is the release branch. Open a pull request from `dev` to `main` when the portfolio is ready to publish.
+- Pushes to either branch and pull requests targeting `main` run the production build and type checks.
+- Only a push to `main` (including a merged pull request) or a manual workflow run on `main` can deploy to the `main` environment. A manual run on `dev` builds without deploying.
+
+For a release, merge the reviewed pull request into `main`, then check the **Actions** tab for the deployment result. The workflow publishes `dist/` to GitHub Pages. The repository's **Settings → Pages** source must be **GitHub Actions**.
 
 The Vite base path is relative so the same build also works in a local preview. A custom domain can be added later in GitHub Pages settings.
 
